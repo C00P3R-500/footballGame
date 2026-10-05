@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.title {
+    background-color: gray;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#sideline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 800px;
+    margin: 50px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#field {
+    display: flex;
+    gap: 0;
+    background-color: rgb(18, 114, 18);
+    height: 250px;
+    width: 750px;
+}
+
+.Lendzone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 250px;
+    width: 75px;
+    border-right: 5px solid white;
+}
+
+.lteam {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+.Rendzone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 250px;
+    width: 75px;
+}
+
+.rteam {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+.yrds {
+    height: 250px;
+    width: 55px;
+    border-right: 5px solid white;
+    color: white;
+}
+
+.rnum {
+    text-align: right;
+    padding: 3px;
+}
+
+.lnum {
+    text-align: left;
+    padding: 3px;
+}
